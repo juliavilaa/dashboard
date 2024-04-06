@@ -12,16 +12,6 @@ python manage.py runserver
 
 4. Abre tu navegador web y visita `http://localhost:8000/ventas/` para ver el dashboard de ventas.
 
-## Estructura del Proyecto
-
-- `dashboard/`: Directorio raíz del proyecto Django.
-- `ventas/`: Aplicación Django que contiene las vistas, modelos y templates para el dashboard de ventas.
-  - `models.py`: Definición del modelo `Venta`.
-  - `views.py`: Implementación de las vistas, incluyendo la vista `saludar` que muestra el dashboard.
-  - `urls.py`: Configuración de las URL para el proyecto.
-  - `templates/ventas/index.html`: Template HTML para el dashboard.
-- `README.md`: Este archivo que estás leyendo ahora.
-
 ## Tecnologías Utilizadas
 
 - Python 3
